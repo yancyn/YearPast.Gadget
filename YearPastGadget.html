@@ -1,0 +1,23 @@
+<html>
+<script>
+//----------------- resizes the gadget display surface
+function DoInit() {
+    document.body.style.width = 90;
+    document.body.style.height= 55;
+    document.body.style.margin=0;
+	
+	// calculate past %
+	var today = new Date();
+	var firstDayInYear = new Date(today.getFullYear(), today.getMonth()-1, 1);
+	var ms = today.getTime()-firstDayInYear.getTime();
+	var totalmsInDay = 24*60*60*1000;
+	var days = ms/totalmsInDay;	
+	var displayText = Math.round(days/365*100);
+	displayText = displayText + "%<br/> past " + today.getFullYear();
+	document.getElementById("content").innerHTML = displayText;
+}
+</script>
+<body onload="DoInit();">
+	<div id="content"></div>
+</body>
+</html>
