@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>YearPastGadget</name>
+  <version>1.0.0.0</version>
+  <description>% Past in Year</description>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="YearPastGadget.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>
