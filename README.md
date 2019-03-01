@@ -16,5 +16,9 @@ Show percentage past in a year. i.e.
 ## Enhancement
 Add a circular pie as background to indicate the percentage.
 
+[[Edit/View]](https://www.figma.com/file/XOTTPwCH3wWOovJ2InI77aES/)
+
+![screen](screen.jpg)
+
 ## References
 - https://www.experts-exchange.com/articles/2000/Create-a-Win7-Gadget.html
