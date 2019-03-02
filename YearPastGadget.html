@@ -8,7 +8,7 @@ function DoInit() {
 	
 	// calculate past %
 	var today = new Date();
-	var firstDayInYear = new Date(today.getFullYear(), today.getMonth()-1, 1);
+	var firstDayInYear = new Date(today.getFullYear(), 0, 1);
 	var ms = today.getTime()-firstDayInYear.getTime();
 	var totalmsInDay = 24*60*60*1000;
 	var days = Math.floor(ms/totalmsInDay);
